@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Clock:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Clock_jar</output-path>
+    <root id="root">
+      <element id="module-output" name="Clock" />
+    </root>
+  </artifact>
+</component>
