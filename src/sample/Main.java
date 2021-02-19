@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -17,6 +18,8 @@ public class Main extends Application {
         primaryStage.setTitle("Alarm, Timer, and StopWatch");
         primaryStage.setScene(new Scene(gridPane, 300, 275));
         primaryStage.show();
+        Image icon = new Image("sample/Clock bitmap icon.jpg");
+        primaryStage.getIcons().add(icon);
 
         Button Clock = new Button("Clock");
         GridPane.setConstraints(Clock, 0,0);

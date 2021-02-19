@@ -56,7 +56,6 @@ public class StopWatch {
         // Task<Void> longRunningTask = new Task<Void>(){}
         Timer mt = new Timer();
 
-        //Platform.runLater is not updating gui. It hangs the gui instead
         TimerTask tm = new TimerTask() {
             @Override
             public void run() {
@@ -161,7 +160,7 @@ public class StopWatch {
         window.setScene(scene);
         window.show();
     }
-    public void Start(Timer mt){
+    public void Start(){
 
     }
 
